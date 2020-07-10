@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.conntainer, [class*="col-"] {
+  border: 1px solid black;
+}
+
+[class*="col-"]{
+  height: 100%;
+  background-color: pink;
+  text-align: center;
+  position: relative;
+}
+.row{
+  height: 300px;
+}
+
+p{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
