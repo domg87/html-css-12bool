@@ -1,5 +1,7 @@
 .container [class*="col-"]{
   float: left;
+  position: relative;
+
 }
 .container {
   max-width: 1170px;

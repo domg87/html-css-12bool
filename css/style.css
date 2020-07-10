@@ -23,3 +23,12 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.nested{
+  padding: 5px;
+}
+.nested > div{
+  background-color: lightcoral;
+  border: 1px solid #fff;
+  padding: 10px;
+
+}
